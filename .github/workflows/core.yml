@@ -36,7 +36,7 @@ jobs:
       run: dotnet restore src/Migale.Core/Migale.Core.csproj
       
     - name: Build
-      run: dotnet build src/Migale.Core/Migale.Core.csproj --no-restore
+      run: dotnet build src/Migale.Core/Migale.Core.csproj -c Release --no-restore
       
     - name: Test
       run: dotnet test --no-build --verbosity normal
