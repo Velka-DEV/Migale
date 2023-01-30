@@ -18,21 +18,28 @@ jobs:
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: 7.0.x
+        
     - name: Read csproj
-      id: read-csproj
       uses: juliangruber/read-file-action@v1
+      id: read-csproj
       with:
         path: src/Migale.Core/Migale.Core.csproj
-    - uses: actions-ecosystem/action-regex-match@v2
+        
+    - name: Read version
+      uses: actions-ecosystem/action-regex-match@v2
       id: version-regex
       with:
         text: ${{ steps.read-csproj.outputs.content }}
         regex: '(?:<Version>)(\d*\.\d*\.\d*)(?:<\/Version>)'
+        
     - name: Restore dependencies
       run: dotnet restore
+      
     - name: Build
       run: dotnet build src/Migale.Core/Migale.Core.csproj --no-restore
+      
     - name: Test
       run: dotnet test --no-build --verbosity normal
+      
     - name: Publish nuget package
     - run: dotnet nuget push Migale.Core.${{ steps.version-regex.outputs.group1 }}.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json
