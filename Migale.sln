@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migale", "src\Migale\Migale.csproj", "{43F3CC4A-7C33-4E3C-8D87-02C27970D531}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migale.Core", "src\Migale.Core\Migale.Core.csproj", "{03B9608F-0DB1-47A2-83FE-7291EFFCB4A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.HttpClient", "src\Migale.HttpClient\Migale.HttpClient.csproj", "{8F745643-773F-4659-B1AA-6549C764243C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.Playwright", "src\Migale.Playwright\Migale.Playwright.csproj", "{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43F3CC4A-7C33-4E3C-8D87-02C27970D531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F3CC4A-7C33-4E3C-8D87-02C27970D531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F3CC4A-7C33-4E3C-8D87-02C27970D531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F3CC4A-7C33-4E3C-8D87-02C27970D531}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03B9608F-0DB1-47A2-83FE-7291EFFCB4A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03B9608F-0DB1-47A2-83FE-7291EFFCB4A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03B9608F-0DB1-47A2-83FE-7291EFFCB4A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03B9608F-0DB1-47A2-83FE-7291EFFCB4A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F745643-773F-4659-B1AA-6549C764243C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F745643-773F-4659-B1AA-6549C764243C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F745643-773F-4659-B1AA-6549C764243C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F745643-773F-4659-B1AA-6549C764243C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {02661E20-198F-44E8-AD9B-DD32401724BB}
+	EndGlobalSection
+EndGlobal
