@@ -4,9 +4,11 @@
         <TargetFramework>net7.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <Version>0.0.4</Version>
+        <Version>0.0.6</Version>
         <PackageProjectUrl>https://github.com/Velka-DEV/Migale</PackageProjectUrl>
         <RepositoryUrl>https://github.com/Velka-DEV/Migale</RepositoryUrl>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>Velka</Authors>
     </PropertyGroup>
 
     <ItemGroup>
