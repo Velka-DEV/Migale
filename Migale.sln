@@ -5,9 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migale.Core", "src\Migale.Core\Migale.Core.csproj", "{03B9608F-0DB1-47A2-83FE-7291EFFCB4A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.HttpClient", "src\Migale.HttpClient\Migale.HttpClient.csproj", "{8F745643-773F-4659-B1AA-6549C764243C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.Crawlers.HttpClient", "src\Migale.Crawlers.HttpClient\Migale.Crawlers.HttpClient.csproj", "{8F745643-773F-4659-B1AA-6549C764243C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.Playwright", "src\Migale.Playwright\Migale.Playwright.csproj", "{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.Crawlers.Playwright", "src\Migale.Crawlers.Playwright\Migale.Crawlers.Playwright.csproj", "{CAD870A7-B128-47D3-BF0A-4AF93C54EF39}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Migale.Samples", "src\Migale.Samples\Migale.Samples.csproj", "{BFB05798-590D-42CA-A82E-5982024C28D7}"
 EndProject

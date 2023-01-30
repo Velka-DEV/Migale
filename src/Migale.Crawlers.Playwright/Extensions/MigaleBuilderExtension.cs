@@ -1,9 +1,9 @@
 ﻿using System.Text.RegularExpressions;
 using Microsoft.Playwright;
 using Migale.Core;
-using Migale.Playwright.Models;
+using Migale.Crawlers.Playwright.Models;
 
-namespace Migale.Playwright.Extensions;
+namespace Migale.Crawlers.Playwright.Extensions;
 
 public static class MigaleBuilderExtension
 {

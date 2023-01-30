@@ -1,7 +1,7 @@
 ﻿using Migale.Core;
 using Migale.Core.Models;
 
-namespace Migale.HttpClient.Extensions;
+namespace Migale.Crawlers.HttpClient.Extensions;
 
 public static class MigaleBuilderExtensions
 {

@@ -2,7 +2,7 @@
 using Migale.Core.Crawlers;
 using Migale.Core.Models;
 
-namespace Migale.Playwright;
+namespace Migale.Crawlers.Playwright;
 
 public class PlaywrightCrawler : ICrawler, IAsyncDisposable
 {

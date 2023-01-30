@@ -8,8 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Migale.HttpClient\Migale.HttpClient.csproj" />
-      <ProjectReference Include="..\Migale.Playwright\Migale.Playwright.csproj" />
+      <ProjectReference Include="..\Migale.Crawlers.HttpClient\Migale.Crawlers.HttpClient.csproj" />
+      <ProjectReference Include="..\Migale.Crawlers.Playwright\Migale.Crawlers.Playwright.csproj" />
     </ItemGroup>
 
 </Project>

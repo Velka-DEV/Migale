@@ -1,7 +1,7 @@
 ﻿using Migale.Core.Crawlers;
 using Migale.Core.Models;
 
-namespace Migale.HttpClient;
+namespace Migale.Crawlers.HttpClient;
 
 public class HttpClientCrawler : ICrawler
 {
