@@ -2,6 +2,13 @@
 
 Migale was born out of a need to extract quickly and with a very low development cost. This package is not intended to replace complete and structured libraries like [DotnetSpider](https://github.com/dotnetcore/DotnetSpider). 
 
+
+| Package | Description |
+| ----------- | ----------- |
+| [Migale.Core](https://github.com/Velka-DEV/Migale/tree/main/src/Migale.Core) | The core of the project |
+| [Migale.Crawlers.HttpClient](https://github.com/Velka-DEV/Migale/tree/main/src/Migale.Crawlers.HttpClient) | The HttpClient crawler implementation with RequestMessages |
+| [Migale.Crawlers.Playwright](https://github.com/Velka-DEV/Migale/tree/main/src/Migale.Crawlers.Playwright) | The Playwright crawler implementation with browser automation |
+
 ## Contributing
 
 We would love community contributions here.
