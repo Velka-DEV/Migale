@@ -2,6 +2,19 @@
 
 Migale was born out of a need to extract quickly and with a very low development cost. This package is not intended to replace complete and structured libraries like [DotnetSpider](https://github.com/dotnetcore/DotnetSpider). 
 
+## Features
+
+- [x] Multi-Threaded
+- [x] Fail & retries handling
+- [x] Event-Driven
+- [x] Extensible
+- [ ] Document parsing (HTML, JSON, XML) (Work in progress !)
+
+## Samples
+
+You can find samples with the crawlers implementation [here](https://github.com/Velka-DEV/Migale/tree/main/src/Migale.Samples) !
+
+## Packages
 
 | Package | Description |
 | ----------- | ----------- |
