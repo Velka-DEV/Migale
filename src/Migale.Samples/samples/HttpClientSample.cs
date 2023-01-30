@@ -1,5 +1,5 @@
 ﻿using Migale.Core;
-using Migale.HttpClient.Extensions;
+using Migale.Crawlers.HttpClient.Extensions;
 
 namespace Migale.Samples.samples;
 

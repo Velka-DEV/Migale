@@ -1,4 +1,4 @@
-﻿namespace Migale.Playwright.Models;
+﻿namespace Migale.Crawlers.Playwright.Models;
 
 public class PlaywrightCrawlerOptions
 {

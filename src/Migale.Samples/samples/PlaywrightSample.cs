@@ -1,7 +1,7 @@
 ﻿using Migale.Core;
 using Migale.Core.Models;
-using Migale.Playwright.Extensions;
-using Migale.Playwright.Models;
+using Migale.Crawlers.Playwright.Extensions;
+using Migale.Crawlers.Playwright.Models;
 
 namespace Migale.Samples.samples;
 
@@ -20,11 +20,11 @@ public class PlaywrightSample
         builder.WithPlaywrightCrawler(new PlaywrightCrawlerOptions()
         {
             Headless = false,
-            BrowserInstances = 1
+            BrowserInstances = 2
         });
         builder.WithOptions(new MigaleOptions()
         {
-            Threads = 1
+            Threads = 2
         });
         
         var spider = builder.Build();
@@ -37,6 +37,7 @@ public class PlaywrightSample
         spider.PageCrawled += (sender, e) =>
         {
             Console.WriteLine($"Crawled {e.Target.Url}");
+            Console.WriteLine(e.Result.Content);
         };
         
         spider.PageCrawlFailed += (sender, e) =>

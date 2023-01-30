@@ -2,4 +2,4 @@
 
 using Migale.Samples.samples;
 
-await HttpClientSample.RunHttpClientMigaleAsync();
+await PlaywrightSample.RunPlaywrightMigaleAsync();
