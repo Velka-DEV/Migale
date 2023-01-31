@@ -38,3 +38,4 @@ You should take a look at these related projects:
 
 - [DotnetSpider](https://github.com/dotnetcore/DotnetSpider)
 - [GO-Colly](https://github.com/gocolly/colly)
+- [Anglesharp](https://github.com/AngleSharp/AngleSharp)
