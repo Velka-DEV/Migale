@@ -42,4 +42,9 @@ jobs:
       run: dotnet test --no-build --verbosity normal
       
     - name: Publish nuget package
-      run: dotnet nuget push src/Migale.Core/bin/Release/Migale.Core.${{ steps.version-regex.outputs.group1 }}.nupkg --api-key ${{secrets.NUGET_API_KEY}} --source https://api.nuget.org/v3/index.json
+      run: dotnet nuget push src/Migale.Core/bin/Release/Migale.Core.${{ steps.version-regex.outputs.group1 }}.nupkg --api-key ${{secrets.PAT_GITHUB}} --source https://nuget.pkg.github.com/Velka-DEV/index.json
+      if: ${{ steps.version-regex.outputs.group1 }} != ${{ vars.MIGALE_CORE_VERSION }}
+      
+    - name: Update Version
+      run: ${{ vars.MIGALE_CORE_VERSION = steps.version-regex.outputs.group1 }}
+      if: ${{ steps.version-regex.outputs.group1 }} != ${{ vars.MIGALE_CORE_VERSION }}
