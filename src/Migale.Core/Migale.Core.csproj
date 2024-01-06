@@ -6,9 +6,10 @@
         <Nullable>enable</Nullable>
         <Version>1.0.0</Version>
         <PackageProjectUrl>https://github.com/Velka-DEV/Migale</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/Velka-DEV/Migale</RepositoryUrl>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <Authors>Velka</Authors>
+        <PackageId>Migale.Core</PackageId>
+        <RepositoryUrl>https://github.com/Velka-DEV/Migale</RepositoryUrl>
+        <Authors>Velka-DEV</Authors>
     </PropertyGroup>
 
     <ItemGroup>

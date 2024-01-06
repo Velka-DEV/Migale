@@ -13,17 +13,17 @@ public class HttpClientSample
         
         var spider = builder.Build();
         
-        spider.PageCrawlStarting += (sender, e) =>
+        spider.SendingRequest += (sender, e) =>
         {
             Console.WriteLine($"Crawling {e.Target.Url}");
         };
         
-        spider.PageCrawled += (sender, e) =>
+        spider.ResponseReceived += (sender, e) =>
         {
             Console.WriteLine($"Crawled {e.Target.Url}");
         };
         
-        spider.PageCrawlFailed += (sender, e) =>
+        spider.RequestFailed += (sender, e) =>
         {
             Console.WriteLine($"Failed to crawl {e.Target.Url}");
         };
